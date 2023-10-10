@@ -207,9 +207,28 @@ section {
     margin: auto 0;
 }
 
+.section__pic-container img {
+    border-radius: 50%;
+}
+
 .section__text {
     align-self: flex-start;
     text-align: left;
+}
+
+.section__pic-container img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.section__pic-container img {
+    border-radius: 50%;
+    width: 200px; /* Adjust the size as needed */
+    height: 220px; /* Adjust the size as needed */
+}
+
+.about-pic.about-pic-2 {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
 }
 
 .section__text p {
